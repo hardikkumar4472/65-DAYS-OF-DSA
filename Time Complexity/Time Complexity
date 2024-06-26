@@ -1,0 +1,54 @@
+Time complexity is a concept used in computer science to describe the amount of time it takes to run an algorithm as a function of the size of the input. It provides an upper bound on the running time and helps in comparing the efficiency of different algorithms. Here are some common notations used to describe time complexity:
+
+1. **Big O Notation (O)**: Describes the worst-case scenario. It gives an upper bound on the time an algorithm will take.
+   - Examples:
+     - \(O(1)\): Constant time
+     - \(O(\log n)\): Logarithmic time
+     - \(O(n)\): Linear time
+     - \(O(n \log n)\): Linearithmic time
+     - \(O(n^2)\): Quadratic time
+     - \(O(2^n)\): Exponential time
+
+2. **Omega Notation (Ω)**: Describes the best-case scenario. It provides a lower bound on the time an algorithm will take.
+   - Examples:
+     - \(Ω(1)\): Constant time
+     - \(Ω(\log n)\): Logarithmic time
+     - \(Ω(n)\): Linear time
+
+3. **Theta Notation (Θ)**: Describes the average-case or tight bound scenario. It provides both an upper and lower bound on the time an algorithm will take.
+   - Examples:
+     - \(Θ(1)\): Constant time
+     - \(Θ(\log n)\): Logarithmic time
+     - \(Θ(n)\): Linear time
+
+### Common Time Complexities
+
+1. **Constant Time (O(1))**:
+   - The execution time does not change with the size of the input.
+   - Example: Accessing an element in an array by index.
+
+2. **Logarithmic Time (O(log n))**:
+   - The execution time grows logarithmically as the input size increases.
+   - Example: Binary search.
+
+3. **Linear Time (O(n))**:
+   - The execution time grows linearly with the size of the input.
+   - Example: Traversing an array.
+
+4. **Linearithmic Time (O(n log n))**:
+   - The execution time grows as the input size times the logarithm of the input size.
+   - Example: Merge sort, quicksort (average case).
+
+5. **Quadratic Time (O(n^2))**:
+   - The execution time grows quadratically with the size of the input.
+   - Example: Bubble sort, selection sort, insertion sort (worst case).
+
+6. **Exponential Time (O(2^n))**:
+   - The execution time grows exponentially with the size of the input.
+   - Example: Solving the Tower of Hanoi problem, certain recursive algorithms.
+
+7. **Factorial Time (O(n!))**:
+   - The execution time grows factorially with the size of the input.
+   - Example: Brute-force solution to the traveling salesman problem.
+
+Understanding time complexity is crucial for designing efficient algorithms, especially for large inputs. By analyzing the time complexity, one can predict how an algorithm will scale and make informed choices about which algorithm to use based on the problem constraints.
