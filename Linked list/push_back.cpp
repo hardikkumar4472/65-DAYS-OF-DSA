@@ -4,7 +4,7 @@ class Node{
 public:
     int data;
     Node* next;
-public:
+// public:
     Node(int val){
         data=val;
         next=NULL;
