@@ -1,1 +1,1 @@
-All about DSA
+All about Data Structures and Algo
